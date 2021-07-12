@@ -241,19 +241,19 @@
     			</div>
 	    		<div class="col-md-6 appointment ftco-animate">
 	    			<h3 class="mb-3">Contact Us</h3>
-	    			<form action="#" class="appointment-form">
+	    			<form action="https://formspree.io/f/xrgraely" method="post" class="appointment-form">
 	    				<div class="d-md-flex">
 		    				<div class="form-group">
-		    					<input type="text" class="form-control" placeholder="First Name">
+		    					<input required name="About-User-Name" type="text" class="form-control" placeholder="Name">
 		    				</div>
 	    				</div>
 	    				<div class="d-me-flex">
 	    					<div class="form-group">
-		    					<input type="text" class="form-control" placeholder="Last Name">
+		    					<input required name="About-User-Email" type="email" class="form-control" placeholder="Email">
 		    				</div>
 	    				</div>
 	    				<div class="form-group">
-	              <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Message"></textarea>
+	              <textarea required name="About-User-Message" id="" cols="30" rows="3" class="form-control" placeholder="Message"></textarea>
 	            </div>
 	            <div class="form-group">
 	              <input type="submit" value="Send" class="btn btn-primary py-3 px-4">
